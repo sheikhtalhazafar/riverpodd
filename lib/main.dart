@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:riverpodd/counter.dart';
 import 'package:riverpodd/future/weatherdataScreen.dart';
+import 'package:riverpodd/statenotifierprovider/counterscreen.dart';
 import 'package:riverpodd/stateprovider/counterprovider.dart';
 import 'package:riverpodd/readprovider.dart';
 import 'package:riverpodd/stream/streamdata.dart';
@@ -26,7 +27,8 @@ class MyApp extends StatelessWidget {
       ),
       // home: readprovider(),
       // home: const myweather(),
-      home: const mystreming(),
+      // home: const mystreming(),
+      home: const CounterScreen(),
     );
   }
 }
