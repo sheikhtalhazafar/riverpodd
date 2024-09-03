@@ -1,0 +1,4 @@
+stateprovider :
+ stateprovider is great for storing simple state objects that can change,
+ stateprovider is ideal for storing simple state varibales such as strings, enums, booleans, and numbers
+

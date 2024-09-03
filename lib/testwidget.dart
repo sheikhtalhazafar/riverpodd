@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:riverpodd/provider/widgetprovider.dart';
+import 'package:riverpodd/stateprovider/widgetprovider.dart';
 
 
 final mytestwidget = StateProvider<bool>((ref) {

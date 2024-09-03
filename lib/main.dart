@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:riverpodd/counter.dart';
-import 'package:riverpodd/provider/counterprovider.dart';
+import 'package:riverpodd/future/weatherdataScreen.dart';
+import 'package:riverpodd/stateprovider/counterprovider.dart';
 import 'package:riverpodd/readprovider.dart';
+import 'package:riverpodd/stream/streamdata.dart';
 import 'package:riverpodd/testwidget.dart';
 
 void main() {
@@ -23,7 +25,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // home: readprovider(),
-      home: const MyWidget(),
+      // home: const myweather(),
+      home: const mystreming(),
     );
   }
 }

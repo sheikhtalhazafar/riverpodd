@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:riverpodd/provider/counterprovider.dart';
+import 'package:riverpodd/stateprovider/counterprovider.dart';
 
 class mycounter extends ConsumerWidget {
   const mycounter({super.key});
